@@ -1,0 +1,43 @@
+<html>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <link rel="stylesheet" href="styles.css" />
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Cards</title>
+    </head>
+  </html>
+  <body>
+    <div class='overlay hidden'></div>
+    <div class="popup hidden"><div class='popup--inner'>placeholder</div><br><button onclick='closePopupChangeName()' class='doneBtn'>Done</button></div>
+    <div class="cardHolder">
+      <!-- <div class="card" cardNum="0">
+        <div class="card--color"></div>
+        <br />
+        <span>nameholder</span>
+        <br />
+        <div class="color--holder">
+          <button
+            class="change--color red"
+            onclick="buttonEventListener(this.parentElement.parentElement, this)"
+          ></button>
+          <button
+            class="change--color yellow"
+            onclick="buttonEventListener(this.parentElement.parentElement, this)"
+          ></button>
+          <button
+            class="change--color green"
+            onclick="buttonEventListener(this.parentElement.parentElement, this)"
+          ></button>
+        </div> -->
+      </div>
+    </div>
+    <br>
+    <button class='new--person'>Add new person</button>
+    <input class='name--input' placeholder='new person name here'>
+   <br><br> Stats<div class='stats'></div>
+    <script src="script.js"></script>
+  </body>
+</html>
